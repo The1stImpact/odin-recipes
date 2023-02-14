@@ -1,0 +1,49 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+}
+ul, ol{
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+body{
+    background-color: gray;
+}
+a, a:hover, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+   }
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+   }
+.checker-cake-img{
+    border-radius: 100px;;
+    transform: translateX(53dvh);
+    border: black 3px solid;
+    padding: 0px;
+}
+.instructions{
+    list-style: decimal;
+    list-style-position: inside;
+}
+li{
+    padding: 20px;
+    margin: 30px 10px;
+    border: black 3px solid;
+    border-radius: 20px;
+}
+.recipe-links{
+    text-align: center;
+    border: black 3px solid;
+    border-radius: 20px;
+}
+.recipe-links li{
+    border: gray 0px solid;
+}
